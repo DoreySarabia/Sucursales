@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBSucusalModelStoreContainer" CdmEntityContainer="DBSucusalEntities">
+    <EntitySetMapping Name="Nueva_sucursal">
+      <EntityTypeMapping TypeName="DBSucusalModel.Nueva_sucursal">
+        <MappingFragment StoreEntitySet="Nueva_sucursal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Codigo_barras" ColumnName="Codigo_barras" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio_unitario" ColumnName="Precio_unitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursal_A">
+      <EntityTypeMapping TypeName="DBSucusalModel.Sucursal_A">
+        <MappingFragment StoreEntitySet="Sucursal_A">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Código_barras" ColumnName="Código_barras" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio_Unitario" ColumnName="Precio_Unitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursal_B">
+      <EntityTypeMapping TypeName="DBSucusalModel.Sucursal_B">
+        <MappingFragment StoreEntitySet="Sucursal_B">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Código_barras" ColumnName="Código_barras" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Precio_unitario" ColumnName="Precio_unitario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
